@@ -37,7 +37,7 @@ ImageView imageView;
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         Bitmap bitmap = (Bitmap) data.getExtras().get( "data" );
-        imageView =
+
         if (data != null) {
 
            Save savefile = new Save();
@@ -48,7 +48,7 @@ ImageView imageView;
        else {
 
 <
-            Toast.makeText(this, "hola kdhbffda", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "hola kdhbffda", Toast.LENGTH_SHORT).show();
 
        }
 
